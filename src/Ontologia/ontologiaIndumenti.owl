@@ -1,0 +1,1887 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/ivan/ontologies/2022/7/untitled-ontology-2"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/ivan/ontologies/2022/7/untitled-ontology-2">
+    <Prefix name="" IRI="http://www.semanticweb.org/ivan/ontologies/2022/7/untitled-ontology-2"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Indumenti"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#casual_mattina_caldo_Altri"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#casual_mattina_caldo_Clear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#casual_mattina_caldo_Clouds"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#casual_mattina_freddo_Altri"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#casual_mattina_freddo_Clear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#casual_mattina_freddo_Clouds"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#casual_mattina_normale_Altri"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#casual_mattina_normale_Clear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#casual_mattina_normale_Clouds"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#casual_sera_caldo_Altri"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#casual_sera_caldo_Clear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#casual_sera_caldo_Clouds"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#casual_sera_freddo_Altri"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#casual_sera_freddo_Clear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#casual_sera_freddo_Clouds"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#casual_sera_normale_Altri"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#casual_sera_normale_Clear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#casual_sera_normale_Clouds"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#elegante_mattina_caldo_Altri"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#elegante_mattina_caldo_Clear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#elegante_mattina_caldo_Clouds"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#elegante_mattina_freddo_Altri"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#elegante_mattina_freddo_Clear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#elegante_mattina_freddo_Clouds"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#elegante_mattina_normale_Altri"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#elegante_mattina_normale_Clear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#elegante_mattina_normale_Clouds"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#elegante_sera_caldo_Altri"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#elegante_sera_caldo_Clear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#elegante_sera_caldo_Clouds"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#elegante_sera_freddo_Altri"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#elegante_sera_freddo_Clear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#elegante_sera_freddo_Clouds"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#elegante_sera_normale_Altri"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#elegante_sera_normale_Clear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#elegante_sera_normale_Clouds"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sportivo_mattina_caldo_Altri"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sportivo_mattina_caldo_Clear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sportivo_mattina_caldo_Clouds"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sportivo_mattina_freddo_Altri"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sportivo_mattina_freddo_Clear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sportivo_mattina_freddo_Clouds"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sportivo_mattina_normale_Altri"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sportivo_mattina_normale_Clear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sportivo_mattina_normale_Clouds"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sportivo_sera_caldo_Altri"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sportivo_sera_caldo_Clear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sportivo_sera_caldo_Clouds"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sportivo_sera_freddo_Altri"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sportivo_sera_freddo_Clear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sportivo_sera_freddo_Clouds"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sportivo_sera_normale_Altri"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sportivo_sera_normale_Clear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sportivo_sera_normale_Clouds"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#busto"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#gambe"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ombrello"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#scarpe"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CI101"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CI102"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CI103"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CI104"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CI105"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CI106"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CI107"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CI108"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CI109"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CI110"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CI111"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CI112"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CI113"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CI114"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CI115"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CI116"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CI117"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CI118"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CI119"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CI120"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CI121"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CI122"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CI123"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CI124"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CI125"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CI126"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CI127"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CI128"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CI129"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CI130"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CI131"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CI132"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CI133"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CI134"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CI135"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CI136"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CI137"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CI138"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CI139"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CI140"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CI141"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CI142"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CI143"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CI144"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CI145"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CI146"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CI147"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CI148"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CI149"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CI150"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CI151"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CI152"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CI153"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CI154"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#casual_mattina_caldo_Altri"/>
+        <Class IRI="#Indumenti"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#casual_mattina_caldo_Clear"/>
+        <Class IRI="#Indumenti"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#casual_mattina_caldo_Clouds"/>
+        <Class IRI="#Indumenti"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#casual_mattina_freddo_Altri"/>
+        <Class IRI="#Indumenti"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#casual_mattina_freddo_Clear"/>
+        <Class IRI="#Indumenti"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#casual_mattina_freddo_Clouds"/>
+        <Class IRI="#Indumenti"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#casual_mattina_normale_Altri"/>
+        <Class IRI="#Indumenti"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#casual_mattina_normale_Clear"/>
+        <Class IRI="#Indumenti"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#casual_mattina_normale_Clouds"/>
+        <Class IRI="#Indumenti"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#casual_sera_caldo_Altri"/>
+        <Class IRI="#Indumenti"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#casual_sera_caldo_Clear"/>
+        <Class IRI="#Indumenti"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#casual_sera_caldo_Clouds"/>
+        <Class IRI="#Indumenti"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#casual_sera_freddo_Altri"/>
+        <Class IRI="#Indumenti"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#casual_sera_freddo_Clear"/>
+        <Class IRI="#Indumenti"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#casual_sera_freddo_Clouds"/>
+        <Class IRI="#Indumenti"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#casual_sera_normale_Altri"/>
+        <Class IRI="#Indumenti"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#casual_sera_normale_Clear"/>
+        <Class IRI="#Indumenti"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#casual_sera_normale_Clouds"/>
+        <Class IRI="#Indumenti"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#elegante_mattina_caldo_Altri"/>
+        <Class IRI="#Indumenti"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#elegante_mattina_caldo_Clear"/>
+        <Class IRI="#Indumenti"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#elegante_mattina_caldo_Clouds"/>
+        <Class IRI="#Indumenti"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#elegante_mattina_freddo_Altri"/>
+        <Class IRI="#Indumenti"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#elegante_mattina_freddo_Clear"/>
+        <Class IRI="#Indumenti"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#elegante_mattina_freddo_Clouds"/>
+        <Class IRI="#Indumenti"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#elegante_mattina_normale_Altri"/>
+        <Class IRI="#Indumenti"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#elegante_mattina_normale_Clear"/>
+        <Class IRI="#Indumenti"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#elegante_mattina_normale_Clouds"/>
+        <Class IRI="#Indumenti"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#elegante_sera_caldo_Altri"/>
+        <Class IRI="#Indumenti"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#elegante_sera_caldo_Clear"/>
+        <Class IRI="#Indumenti"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#elegante_sera_caldo_Clouds"/>
+        <Class IRI="#Indumenti"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#elegante_sera_freddo_Altri"/>
+        <Class IRI="#Indumenti"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#elegante_sera_freddo_Clear"/>
+        <Class IRI="#Indumenti"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#elegante_sera_freddo_Clouds"/>
+        <Class IRI="#Indumenti"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#elegante_sera_normale_Altri"/>
+        <Class IRI="#Indumenti"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#elegante_sera_normale_Clear"/>
+        <Class IRI="#Indumenti"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#elegante_sera_normale_Clouds"/>
+        <Class IRI="#Indumenti"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sportivo_mattina_caldo_Altri"/>
+        <Class IRI="#Indumenti"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sportivo_mattina_caldo_Clear"/>
+        <Class IRI="#Indumenti"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sportivo_mattina_caldo_Clouds"/>
+        <Class IRI="#Indumenti"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sportivo_mattina_freddo_Altri"/>
+        <Class IRI="#Indumenti"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sportivo_mattina_freddo_Clear"/>
+        <Class IRI="#Indumenti"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sportivo_mattina_freddo_Clouds"/>
+        <Class IRI="#Indumenti"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sportivo_mattina_normale_Altri"/>
+        <Class IRI="#Indumenti"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sportivo_mattina_normale_Clear"/>
+        <Class IRI="#Indumenti"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sportivo_mattina_normale_Clouds"/>
+        <Class IRI="#Indumenti"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sportivo_sera_caldo_Altri"/>
+        <Class IRI="#Indumenti"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sportivo_sera_caldo_Clear"/>
+        <Class IRI="#Indumenti"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sportivo_sera_caldo_Clouds"/>
+        <Class IRI="#Indumenti"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sportivo_sera_freddo_Altri"/>
+        <Class IRI="#Indumenti"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sportivo_sera_freddo_Clear"/>
+        <Class IRI="#Indumenti"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sportivo_sera_freddo_Clouds"/>
+        <Class IRI="#Indumenti"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sportivo_sera_normale_Altri"/>
+        <Class IRI="#Indumenti"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sportivo_sera_normale_Clear"/>
+        <Class IRI="#Indumenti"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sportivo_sera_normale_Clouds"/>
+        <Class IRI="#Indumenti"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#casual_mattina_caldo_Clouds"/>
+        <NamedIndividual IRI="#CI101"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#casual_mattina_caldo_Clear"/>
+        <NamedIndividual IRI="#CI102"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#casual_mattina_caldo_Altri"/>
+        <NamedIndividual IRI="#CI103"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#casual_mattina_normale_Clouds"/>
+        <NamedIndividual IRI="#CI104"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#casual_mattina_normale_Clear"/>
+        <NamedIndividual IRI="#CI105"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#casual_mattina_normale_Altri"/>
+        <NamedIndividual IRI="#CI106"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#casual_mattina_freddo_Clouds"/>
+        <NamedIndividual IRI="#CI107"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#casual_mattina_freddo_Clear"/>
+        <NamedIndividual IRI="#CI108"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#casual_mattina_freddo_Altri"/>
+        <NamedIndividual IRI="#CI109"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#casual_sera_caldo_Clouds"/>
+        <NamedIndividual IRI="#CI110"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#casual_sera_caldo_Clear"/>
+        <NamedIndividual IRI="#CI111"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#casual_sera_caldo_Altri"/>
+        <NamedIndividual IRI="#CI112"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#casual_sera_normale_Clouds"/>
+        <NamedIndividual IRI="#CI113"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#casual_sera_normale_Clear"/>
+        <NamedIndividual IRI="#CI114"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#casual_sera_normale_Altri"/>
+        <NamedIndividual IRI="#CI115"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#casual_sera_freddo_Clouds"/>
+        <NamedIndividual IRI="#CI116"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#casual_sera_freddo_Clear"/>
+        <NamedIndividual IRI="#CI117"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#casual_sera_freddo_Altri"/>
+        <NamedIndividual IRI="#CI118"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#elegante_mattina_caldo_Clouds"/>
+        <NamedIndividual IRI="#CI119"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#elegante_mattina_caldo_Clear"/>
+        <NamedIndividual IRI="#CI120"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#elegante_mattina_caldo_Altri"/>
+        <NamedIndividual IRI="#CI121"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#elegante_mattina_normale_Clouds"/>
+        <NamedIndividual IRI="#CI122"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#elegante_mattina_normale_Clear"/>
+        <NamedIndividual IRI="#CI123"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#elegante_mattina_normale_Altri"/>
+        <NamedIndividual IRI="#CI124"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#elegante_mattina_freddo_Clouds"/>
+        <NamedIndividual IRI="#CI125"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#elegante_mattina_freddo_Clear"/>
+        <NamedIndividual IRI="#CI126"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#elegante_mattina_freddo_Altri"/>
+        <NamedIndividual IRI="#CI127"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#elegante_sera_caldo_Clouds"/>
+        <NamedIndividual IRI="#CI128"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#elegante_sera_caldo_Clear"/>
+        <NamedIndividual IRI="#CI129"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#elegante_sera_caldo_Altri"/>
+        <NamedIndividual IRI="#CI130"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#elegante_sera_normale_Clouds"/>
+        <NamedIndividual IRI="#CI131"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#elegante_sera_normale_Clear"/>
+        <NamedIndividual IRI="#CI132"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#elegante_sera_normale_Altri"/>
+        <NamedIndividual IRI="#CI133"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#elegante_sera_freddo_Clouds"/>
+        <NamedIndividual IRI="#CI134"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#elegante_sera_freddo_Clear"/>
+        <NamedIndividual IRI="#CI135"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#elegante_sera_freddo_Altri"/>
+        <NamedIndividual IRI="#CI136"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sportivo_mattina_caldo_Clouds"/>
+        <NamedIndividual IRI="#CI137"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sportivo_mattina_caldo_Clear"/>
+        <NamedIndividual IRI="#CI138"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sportivo_mattina_caldo_Altri"/>
+        <NamedIndividual IRI="#CI139"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sportivo_mattina_normale_Clouds"/>
+        <NamedIndividual IRI="#CI140"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sportivo_mattina_normale_Clear"/>
+        <NamedIndividual IRI="#CI141"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sportivo_mattina_normale_Altri"/>
+        <NamedIndividual IRI="#CI142"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sportivo_mattina_freddo_Clouds"/>
+        <NamedIndividual IRI="#CI143"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sportivo_mattina_freddo_Clear"/>
+        <NamedIndividual IRI="#CI144"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sportivo_mattina_freddo_Altri"/>
+        <NamedIndividual IRI="#CI145"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sportivo_sera_caldo_Clouds"/>
+        <NamedIndividual IRI="#CI146"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sportivo_sera_caldo_Clear"/>
+        <NamedIndividual IRI="#CI147"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sportivo_sera_caldo_Altri"/>
+        <NamedIndividual IRI="#CI148"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sportivo_sera_normale_Clouds"/>
+        <NamedIndividual IRI="#CI149"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sportivo_sera_normale_Clear"/>
+        <NamedIndividual IRI="#CI150"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sportivo_sera_normale_Altri"/>
+        <NamedIndividual IRI="#CI151"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sportivo_sera_freddo_Clouds"/>
+        <NamedIndividual IRI="#CI152"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sportivo_sera_freddo_Clear"/>
+        <NamedIndividual IRI="#CI153"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sportivo_sera_freddo_Altri"/>
+        <NamedIndividual IRI="#CI154"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#busto"/>
+        <NamedIndividual IRI="#CI101"/>
+        <Literal>t-shirt maniche corte</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gambe"/>
+        <NamedIndividual IRI="#CI101"/>
+        <Literal>jeans lunghi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ombrello"/>
+        <NamedIndividual IRI="#CI101"/>
+        <Literal>consigliato</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#scarpe"/>
+        <NamedIndividual IRI="#CI101"/>
+        <Literal>comode e traspiranti, chiuse</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#busto"/>
+        <NamedIndividual IRI="#CI102"/>
+        <Literal>canotta</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gambe"/>
+        <NamedIndividual IRI="#CI102"/>
+        <Literal>pantaloni corti</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ombrello"/>
+        <NamedIndividual IRI="#CI102"/>
+        <Literal>sconsigliato</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#scarpe"/>
+        <NamedIndividual IRI="#CI102"/>
+        <Literal>aperte</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#busto"/>
+        <NamedIndividual IRI="#CI103"/>
+        <Literal>maglioncino di cotone</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gambe"/>
+        <NamedIndividual IRI="#CI103"/>
+        <Literal>jeans o pantaloni lunghi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ombrello"/>
+        <NamedIndividual IRI="#CI103"/>
+        <Literal>necessario</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#scarpe"/>
+        <NamedIndividual IRI="#CI103"/>
+        <Literal>chiuse</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#busto"/>
+        <NamedIndividual IRI="#CI104"/>
+        <Literal>t-shirt maniche lunghe</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gambe"/>
+        <NamedIndividual IRI="#CI104"/>
+        <Literal>jeans lunghi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ombrello"/>
+        <NamedIndividual IRI="#CI104"/>
+        <Literal>consigliato</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#scarpe"/>
+        <NamedIndividual IRI="#CI104"/>
+        <Literal>comode e traspiranti, chiuse</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#busto"/>
+        <NamedIndividual IRI="#CI105"/>
+        <Literal>t-shirt maniche corte</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gambe"/>
+        <NamedIndividual IRI="#CI105"/>
+        <Literal>pantaloni lunghi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ombrello"/>
+        <NamedIndividual IRI="#CI105"/>
+        <Literal>sconsigliato</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#scarpe"/>
+        <NamedIndividual IRI="#CI105"/>
+        <Literal>comode e traspiranti, chiuse</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#busto"/>
+        <NamedIndividual IRI="#CI106"/>
+        <Literal>t-shirt maniche lunghe</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gambe"/>
+        <NamedIndividual IRI="#CI106"/>
+        <Literal>jeans o pantaloni lunghi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ombrello"/>
+        <NamedIndividual IRI="#CI106"/>
+        <Literal>necessario</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#scarpe"/>
+        <NamedIndividual IRI="#CI106"/>
+        <Literal>chiuse e impermeabili</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#busto"/>
+        <NamedIndividual IRI="#CI107"/>
+        <Literal>maglioncino e giubbotto</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gambe"/>
+        <NamedIndividual IRI="#CI107"/>
+        <Literal>jeans lunghi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ombrello"/>
+        <NamedIndividual IRI="#CI107"/>
+        <Literal>consigliato</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#scarpe"/>
+        <NamedIndividual IRI="#CI107"/>
+        <Literal>chiuse</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#busto"/>
+        <NamedIndividual IRI="#CI108"/>
+        <Literal>t-shirt maniche lunghe e giubbotto</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gambe"/>
+        <NamedIndividual IRI="#CI108"/>
+        <Literal>pantaloni lunghi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ombrello"/>
+        <NamedIndividual IRI="#CI108"/>
+        <Literal>sconsigliato</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#scarpe"/>
+        <NamedIndividual IRI="#CI108"/>
+        <Literal>chiuse</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#busto"/>
+        <NamedIndividual IRI="#CI109"/>
+        <Literal>maglione e giubbotto</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gambe"/>
+        <NamedIndividual IRI="#CI109"/>
+        <Literal>jeans o pantaloni lunghi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ombrello"/>
+        <NamedIndividual IRI="#CI109"/>
+        <Literal>necessario</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#scarpe"/>
+        <NamedIndividual IRI="#CI109"/>
+        <Literal>chiuse e impermeabile</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#busto"/>
+        <NamedIndividual IRI="#CI110"/>
+        <Literal>maglia 3/4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gambe"/>
+        <NamedIndividual IRI="#CI110"/>
+        <Literal>pantalone lungo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ombrello"/>
+        <NamedIndividual IRI="#CI110"/>
+        <Literal>consigliato</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#scarpe"/>
+        <NamedIndividual IRI="#CI110"/>
+        <Literal>chiuse</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#busto"/>
+        <NamedIndividual IRI="#CI111"/>
+        <Literal>canotta</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gambe"/>
+        <NamedIndividual IRI="#CI111"/>
+        <Literal>pantaloni corti</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ombrello"/>
+        <NamedIndividual IRI="#CI111"/>
+        <Literal>sconsigliato</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#scarpe"/>
+        <NamedIndividual IRI="#CI111"/>
+        <Literal>chiuse</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#busto"/>
+        <NamedIndividual IRI="#CI112"/>
+        <Literal>canotta</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gambe"/>
+        <NamedIndividual IRI="#CI112"/>
+        <Literal>pantaloni lunghi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ombrello"/>
+        <NamedIndividual IRI="#CI112"/>
+        <Literal>necessario</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#scarpe"/>
+        <NamedIndividual IRI="#CI112"/>
+        <Literal>chiuse</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#busto"/>
+        <NamedIndividual IRI="#CI113"/>
+        <Literal>t-shirt maniche lunghe</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gambe"/>
+        <NamedIndividual IRI="#CI113"/>
+        <Literal>jeans lunghi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ombrello"/>
+        <NamedIndividual IRI="#CI113"/>
+        <Literal>consigliato</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#scarpe"/>
+        <NamedIndividual IRI="#CI113"/>
+        <Literal>comode e traspiranti, chiuse</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#busto"/>
+        <NamedIndividual IRI="#CI114"/>
+        <Literal>t-shirt maniche corte</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gambe"/>
+        <NamedIndividual IRI="#CI114"/>
+        <Literal>pantaloni lunghi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ombrello"/>
+        <NamedIndividual IRI="#CI114"/>
+        <Literal>sconsigliato</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#scarpe"/>
+        <NamedIndividual IRI="#CI114"/>
+        <Literal>comode e traspiranti, chiuse</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#busto"/>
+        <NamedIndividual IRI="#CI115"/>
+        <Literal>t-shirt maniche lunghe e giacca</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gambe"/>
+        <NamedIndividual IRI="#CI115"/>
+        <Literal>jeans o pantaloni lunghi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ombrello"/>
+        <NamedIndividual IRI="#CI115"/>
+        <Literal>necessario</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#scarpe"/>
+        <NamedIndividual IRI="#CI115"/>
+        <Literal>chiuse e impermeabili</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#busto"/>
+        <NamedIndividual IRI="#CI116"/>
+        <Literal>maglione e giacca</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gambe"/>
+        <NamedIndividual IRI="#CI116"/>
+        <Literal>jeans lunghi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ombrello"/>
+        <NamedIndividual IRI="#CI116"/>
+        <Literal>consigliato</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#scarpe"/>
+        <NamedIndividual IRI="#CI116"/>
+        <Literal>chiuse</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#busto"/>
+        <NamedIndividual IRI="#CI117"/>
+        <Literal>maglione</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gambe"/>
+        <NamedIndividual IRI="#CI117"/>
+        <Literal>pantaloni lunghi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ombrello"/>
+        <NamedIndividual IRI="#CI117"/>
+        <Literal>sconsigliato</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#scarpe"/>
+        <NamedIndividual IRI="#CI117"/>
+        <Literal>chiuse</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#busto"/>
+        <NamedIndividual IRI="#CI118"/>
+        <Literal>maglione e giubbotto</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gambe"/>
+        <NamedIndividual IRI="#CI118"/>
+        <Literal>jeans o pantaloni lunghi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ombrello"/>
+        <NamedIndividual IRI="#CI118"/>
+        <Literal>necessario</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#scarpe"/>
+        <NamedIndividual IRI="#CI118"/>
+        <Literal>chiuse e impermeabili</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#busto"/>
+        <NamedIndividual IRI="#CI119"/>
+        <Literal>camicia</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gambe"/>
+        <NamedIndividual IRI="#CI119"/>
+        <Literal>pantaloni lunghi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ombrello"/>
+        <NamedIndividual IRI="#CI119"/>
+        <Literal>consigliato</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#scarpe"/>
+        <NamedIndividual IRI="#CI119"/>
+        <Literal>pelle per gli uomini, tacchi per le donne</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#busto"/>
+        <NamedIndividual IRI="#CI120"/>
+        <Literal>camicia</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gambe"/>
+        <NamedIndividual IRI="#CI120"/>
+        <Literal>pantaloni lunghi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ombrello"/>
+        <NamedIndividual IRI="#CI120"/>
+        <Literal>sconsigliato</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#scarpe"/>
+        <NamedIndividual IRI="#CI120"/>
+        <Literal>pelle per gli uomini, tacchi per le donne</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#busto"/>
+        <NamedIndividual IRI="#CI121"/>
+        <Literal>camicia e impermeabile elegante</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gambe"/>
+        <NamedIndividual IRI="#CI121"/>
+        <Literal>pantaloni lunghi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ombrello"/>
+        <NamedIndividual IRI="#CI121"/>
+        <Literal>necessario</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#scarpe"/>
+        <NamedIndividual IRI="#CI121"/>
+        <Literal>chiuse ed eleganti</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#busto"/>
+        <NamedIndividual IRI="#CI122"/>
+        <Literal>camicia e giacca</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gambe"/>
+        <NamedIndividual IRI="#CI122"/>
+        <Literal>pantaloni lunghi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ombrello"/>
+        <NamedIndividual IRI="#CI122"/>
+        <Literal>consigliato</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#scarpe"/>
+        <NamedIndividual IRI="#CI122"/>
+        <Literal>pelle per gli uomini, tacchi per le donne</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#busto"/>
+        <NamedIndividual IRI="#CI123"/>
+        <Literal>camicia</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gambe"/>
+        <NamedIndividual IRI="#CI123"/>
+        <Literal>pantaloni lunghi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ombrello"/>
+        <NamedIndividual IRI="#CI123"/>
+        <Literal>sconsigliato</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#scarpe"/>
+        <NamedIndividual IRI="#CI123"/>
+        <Literal>pelle per gli uomini, tacchi per le donne</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#busto"/>
+        <NamedIndividual IRI="#CI124"/>
+        <Literal>camicia e giacca</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gambe"/>
+        <NamedIndividual IRI="#CI124"/>
+        <Literal>pantaloni lunghi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ombrello"/>
+        <NamedIndividual IRI="#CI124"/>
+        <Literal>necessario</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#scarpe"/>
+        <NamedIndividual IRI="#CI124"/>
+        <Literal>pelle per gli uomini, tacchi per le donne</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#busto"/>
+        <NamedIndividual IRI="#CI125"/>
+        <Literal>maglione e giacca</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gambe"/>
+        <NamedIndividual IRI="#CI125"/>
+        <Literal>pantaloni lunghi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ombrello"/>
+        <NamedIndividual IRI="#CI125"/>
+        <Literal>consigliato</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#scarpe"/>
+        <NamedIndividual IRI="#CI125"/>
+        <Literal>pelle per gli uomini, tacchi per le donne</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#busto"/>
+        <NamedIndividual IRI="#CI126"/>
+        <Literal>maglione elegante</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gambe"/>
+        <NamedIndividual IRI="#CI126"/>
+        <Literal>pantaloni lunghi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ombrello"/>
+        <NamedIndividual IRI="#CI126"/>
+        <Literal>sconsigliato</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#scarpe"/>
+        <NamedIndividual IRI="#CI126"/>
+        <Literal>pelle per gli uomini, tacchi per le donne</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#busto"/>
+        <NamedIndividual IRI="#CI127"/>
+        <Literal>maglione impermeabile</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gambe"/>
+        <NamedIndividual IRI="#CI127"/>
+        <Literal>pantaloni lunghi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ombrello"/>
+        <NamedIndividual IRI="#CI127"/>
+        <Literal>necessario</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#scarpe"/>
+        <NamedIndividual IRI="#CI127"/>
+        <Literal>pelle per gli uomini, tacchi per le donne</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#busto"/>
+        <NamedIndividual IRI="#CI128"/>
+        <Literal>camicia</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gambe"/>
+        <NamedIndividual IRI="#CI128"/>
+        <Literal>pantaloni lunghi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ombrello"/>
+        <NamedIndividual IRI="#CI128"/>
+        <Literal>consigliato</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#scarpe"/>
+        <NamedIndividual IRI="#CI128"/>
+        <Literal>pelle per gli uomini, tacchi per le donne</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#busto"/>
+        <NamedIndividual IRI="#CI129"/>
+        <Literal>camicia</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gambe"/>
+        <NamedIndividual IRI="#CI129"/>
+        <Literal>pantaloni lunghi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ombrello"/>
+        <NamedIndividual IRI="#CI129"/>
+        <Literal>sconsigliato</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#scarpe"/>
+        <NamedIndividual IRI="#CI129"/>
+        <Literal>pelle per gli uomini, tacchi per le donne</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#busto"/>
+        <NamedIndividual IRI="#CI130"/>
+        <Literal>camicia e impermeabile</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gambe"/>
+        <NamedIndividual IRI="#CI130"/>
+        <Literal>pantaloni lunghi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ombrello"/>
+        <NamedIndividual IRI="#CI130"/>
+        <Literal>necessario</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#scarpe"/>
+        <NamedIndividual IRI="#CI130"/>
+        <Literal>chiuse</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#busto"/>
+        <NamedIndividual IRI="#CI131"/>
+        <Literal>camicia e giacca</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gambe"/>
+        <NamedIndividual IRI="#CI131"/>
+        <Literal>pantaloni lunghi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ombrello"/>
+        <NamedIndividual IRI="#CI131"/>
+        <Literal>consigliato</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#scarpe"/>
+        <NamedIndividual IRI="#CI131"/>
+        <Literal>pelle per gli uomini, tacchi per le donne</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#busto"/>
+        <NamedIndividual IRI="#CI132"/>
+        <Literal>camicia e giacca</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gambe"/>
+        <NamedIndividual IRI="#CI132"/>
+        <Literal>pantaloni lunghi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ombrello"/>
+        <NamedIndividual IRI="#CI132"/>
+        <Literal>sconsigliato</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#scarpe"/>
+        <NamedIndividual IRI="#CI132"/>
+        <Literal>pelle per gli uomini, tacchi per le donne</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#busto"/>
+        <NamedIndividual IRI="#CI133"/>
+        <Literal>camicia e impermeabile</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gambe"/>
+        <NamedIndividual IRI="#CI133"/>
+        <Literal>pantaloni lunghi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ombrello"/>
+        <NamedIndividual IRI="#CI133"/>
+        <Literal>necessario</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#scarpe"/>
+        <NamedIndividual IRI="#CI133"/>
+        <Literal>pelle per gli uomini, tacchi per le donne</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#busto"/>
+        <NamedIndividual IRI="#CI134"/>
+        <Literal>maglione e soprabito</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gambe"/>
+        <NamedIndividual IRI="#CI134"/>
+        <Literal>pantaloni lunghi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ombrello"/>
+        <NamedIndividual IRI="#CI134"/>
+        <Literal>consigliato</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#scarpe"/>
+        <NamedIndividual IRI="#CI134"/>
+        <Literal>pelle per gli uomini, tacchi per le donne</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#busto"/>
+        <NamedIndividual IRI="#CI135"/>
+        <Literal>maglione</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gambe"/>
+        <NamedIndividual IRI="#CI135"/>
+        <Literal>pantaloni lunghi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ombrello"/>
+        <NamedIndividual IRI="#CI135"/>
+        <Literal>sconsigliato</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#scarpe"/>
+        <NamedIndividual IRI="#CI135"/>
+        <Literal>pelle per gli uomini, tacchi per le donne</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#busto"/>
+        <NamedIndividual IRI="#CI136"/>
+        <Literal>maglione e impermeabile</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gambe"/>
+        <NamedIndividual IRI="#CI136"/>
+        <Literal>pantaloni lunghi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ombrello"/>
+        <NamedIndividual IRI="#CI136"/>
+        <Literal>necessario</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#scarpe"/>
+        <NamedIndividual IRI="#CI136"/>
+        <Literal>pelle per gli uomini, tacchi per le donne</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#busto"/>
+        <NamedIndividual IRI="#CI137"/>
+        <Literal>canotta sportiva</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gambe"/>
+        <NamedIndividual IRI="#CI137"/>
+        <Literal>pantaloni ginnici corti</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ombrello"/>
+        <NamedIndividual IRI="#CI137"/>
+        <Literal>consigliato</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#scarpe"/>
+        <NamedIndividual IRI="#CI137"/>
+        <Literal>da ginnastica</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#busto"/>
+        <NamedIndividual IRI="#CI138"/>
+        <Literal>canotta sportiva</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gambe"/>
+        <NamedIndividual IRI="#CI138"/>
+        <Literal>pantaloni ginnici corti</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ombrello"/>
+        <NamedIndividual IRI="#CI138"/>
+        <Literal>sconsigliato</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#scarpe"/>
+        <NamedIndividual IRI="#CI138"/>
+        <Literal>da ginnastica</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#busto"/>
+        <NamedIndividual IRI="#CI139"/>
+        <Literal>canotta sportiva impermeabile</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gambe"/>
+        <NamedIndividual IRI="#CI139"/>
+        <Literal>pantaloni ginnici corti</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ombrello"/>
+        <NamedIndividual IRI="#CI139"/>
+        <Literal>necessario</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#scarpe"/>
+        <NamedIndividual IRI="#CI139"/>
+        <Literal>da ginnastica impermeabili</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#busto"/>
+        <NamedIndividual IRI="#CI140"/>
+        <Literal>canotta sportiva</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gambe"/>
+        <NamedIndividual IRI="#CI140"/>
+        <Literal>pantaloni ginnici 3/4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ombrello"/>
+        <NamedIndividual IRI="#CI140"/>
+        <Literal>consigliato</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#scarpe"/>
+        <NamedIndividual IRI="#CI140"/>
+        <Literal>da ginnastica</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#busto"/>
+        <NamedIndividual IRI="#CI141"/>
+        <Literal>canotta sportiva</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gambe"/>
+        <NamedIndividual IRI="#CI141"/>
+        <Literal>pantaloni ginnici 3/4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ombrello"/>
+        <NamedIndividual IRI="#CI141"/>
+        <Literal>sconsigliato</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#scarpe"/>
+        <NamedIndividual IRI="#CI141"/>
+        <Literal>da ginnastica</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#busto"/>
+        <NamedIndividual IRI="#CI142"/>
+        <Literal>canotta sportiva impermeabile</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gambe"/>
+        <NamedIndividual IRI="#CI142"/>
+        <Literal>pantaloni ginnici 3/4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ombrello"/>
+        <NamedIndividual IRI="#CI142"/>
+        <Literal>necessario</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#scarpe"/>
+        <NamedIndividual IRI="#CI142"/>
+        <Literal>da ginnastica impermeabili</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#busto"/>
+        <NamedIndividual IRI="#CI143"/>
+        <Literal>t-shirt sportiva maniche lunghe</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gambe"/>
+        <NamedIndividual IRI="#CI143"/>
+        <Literal>pantaloni ginnici lunghi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ombrello"/>
+        <NamedIndividual IRI="#CI143"/>
+        <Literal>consigliato</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#scarpe"/>
+        <NamedIndividual IRI="#CI143"/>
+        <Literal>da ginnastica con calze pesanti</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#busto"/>
+        <NamedIndividual IRI="#CI144"/>
+        <Literal>t-shirt sportiva maniche lunghe</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gambe"/>
+        <NamedIndividual IRI="#CI144"/>
+        <Literal>pantaloni ginnici lunghi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ombrello"/>
+        <NamedIndividual IRI="#CI144"/>
+        <Literal>sconsigliato</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#scarpe"/>
+        <NamedIndividual IRI="#CI144"/>
+        <Literal>da ginnastica con calze pesanti</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#busto"/>
+        <NamedIndividual IRI="#CI145"/>
+        <Literal>t-shirt sportiva maniche lunghe e impermeabile</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gambe"/>
+        <NamedIndividual IRI="#CI145"/>
+        <Literal>pantaloni ginnici lunghi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ombrello"/>
+        <NamedIndividual IRI="#CI145"/>
+        <Literal>necessario</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#scarpe"/>
+        <NamedIndividual IRI="#CI145"/>
+        <Literal>da ginnastica con calze pesanti</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#busto"/>
+        <NamedIndividual IRI="#CI146"/>
+        <Literal>t-shirt sportiva</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gambe"/>
+        <NamedIndividual IRI="#CI146"/>
+        <Literal>pantaloni ginnici corti</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ombrello"/>
+        <NamedIndividual IRI="#CI146"/>
+        <Literal>consigliato</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#scarpe"/>
+        <NamedIndividual IRI="#CI146"/>
+        <Literal>da ginnastica</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#busto"/>
+        <NamedIndividual IRI="#CI147"/>
+        <Literal>t-shirt sportiva</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gambe"/>
+        <NamedIndividual IRI="#CI147"/>
+        <Literal>pantaloni ginnici corti</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ombrello"/>
+        <NamedIndividual IRI="#CI147"/>
+        <Literal>sconsigliato</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#scarpe"/>
+        <NamedIndividual IRI="#CI147"/>
+        <Literal>da ginnastica</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#busto"/>
+        <NamedIndividual IRI="#CI148"/>
+        <Literal>t-shirt sportiva e  impermeabile</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gambe"/>
+        <NamedIndividual IRI="#CI148"/>
+        <Literal>pantaloni ginnici corti</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ombrello"/>
+        <NamedIndividual IRI="#CI148"/>
+        <Literal>necessario</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#scarpe"/>
+        <NamedIndividual IRI="#CI148"/>
+        <Literal>da ginnastica</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#busto"/>
+        <NamedIndividual IRI="#CI149"/>
+        <Literal>t-shirt sportiva</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gambe"/>
+        <NamedIndividual IRI="#CI149"/>
+        <Literal>pantaloni ginnici 3/4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ombrello"/>
+        <NamedIndividual IRI="#CI149"/>
+        <Literal>consigliato</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#scarpe"/>
+        <NamedIndividual IRI="#CI149"/>
+        <Literal>da ginnastica</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#busto"/>
+        <NamedIndividual IRI="#CI150"/>
+        <Literal>t-shirt sportiva</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gambe"/>
+        <NamedIndividual IRI="#CI150"/>
+        <Literal>pantaloni ginnici 3/4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ombrello"/>
+        <NamedIndividual IRI="#CI150"/>
+        <Literal>sconsigliato</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#scarpe"/>
+        <NamedIndividual IRI="#CI150"/>
+        <Literal>da ginnastica</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#busto"/>
+        <NamedIndividual IRI="#CI151"/>
+        <Literal>t-shirt sportiva e impermeabile</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gambe"/>
+        <NamedIndividual IRI="#CI151"/>
+        <Literal>pantaloni ginnici 3/4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ombrello"/>
+        <NamedIndividual IRI="#CI151"/>
+        <Literal>necessario</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#scarpe"/>
+        <NamedIndividual IRI="#CI151"/>
+        <Literal>da ginnastica</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#busto"/>
+        <NamedIndividual IRI="#CI152"/>
+        <Literal>t-shirt sportiva e felpa</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gambe"/>
+        <NamedIndividual IRI="#CI152"/>
+        <Literal>pantaloni ginnici lunghi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ombrello"/>
+        <NamedIndividual IRI="#CI152"/>
+        <Literal>consigliato</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#scarpe"/>
+        <NamedIndividual IRI="#CI152"/>
+        <Literal>da ginnastica</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#busto"/>
+        <NamedIndividual IRI="#CI153"/>
+        <Literal>t-shirt sportiva e felpa</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gambe"/>
+        <NamedIndividual IRI="#CI153"/>
+        <Literal>pantaloni ginnici lunghi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ombrello"/>
+        <NamedIndividual IRI="#CI153"/>
+        <Literal>sconsigliato</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#scarpe"/>
+        <NamedIndividual IRI="#CI153"/>
+        <Literal>da ginnastica</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#busto"/>
+        <NamedIndividual IRI="#CI154"/>
+        <Literal>felpa e impermeabile</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gambe"/>
+        <NamedIndividual IRI="#CI154"/>
+        <Literal>pantaloni ginnici lunghi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ombrello"/>
+        <NamedIndividual IRI="#CI154"/>
+        <Literal>necessario</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#scarpe"/>
+        <NamedIndividual IRI="#CI154"/>
+        <Literal>da ginnastica</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyRange>
+        <DataProperty IRI="#busto"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#gambe"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#ombrello"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#scarpe"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
