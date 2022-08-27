@@ -9,7 +9,7 @@ Nel caso del seguente errore in seguito all'installazione delle librerie:
   
 AttributeError: module 'collections' has no attribute 'Mapping'
 
-1. Aprire il file: __init__.py
+1. Aprire il file: __init_\_.py
 2. Trovare la riga: class frozendict(collections.Mapping)
 3. Modificarla in: frozendict(collections.abc.Mapping)
 
