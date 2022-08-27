@@ -1,4 +1,16 @@
-# LEGGIMI
+# Progetto ICON a.a. 21/22
+
+## Presentazione
+Questa è la repository per l'esame Ingegneria della Conoscenza, a.a. 21/22 - Università di Bari.
+
+Il progetto contiene:
+
+1. Un sistema esperto per la raccolta e l'elaborazione dei dati al fine di scegliere un set di indumenti consono alla giornata
+2. I risultati vengono elaborati accedendo a delle informazioni salvate in un'ontologia
+3. Nel caso di una emergenza meteo viene calcolata la probabilità di prendersi un malanno attraverso una rete bayesiana
+
+Studente:
+* De Cosmis Ivan, 716486, i.decosmis@studenti.uniba.it
 
 ## Installare requisiti
 Installare tutte le librerie necessarie dal file requisiti.txt con il comando:
