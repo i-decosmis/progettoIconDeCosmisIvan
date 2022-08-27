@@ -17,6 +17,10 @@ Installare tutte le librerie necessarie dal file requisiti.txt con il comando:
 
 ```pip install -r requisiti.txt```
 
+Se python in windows restituisce un errore provare con:
+
+```python.exe -m pip install -r requisiti.txt```
+
 Nel caso del seguente errore in seguito all'installazione delle librerie:
 
   File "percorsoAlFile/\_\_init_\_\.py", line 16, in <module>
