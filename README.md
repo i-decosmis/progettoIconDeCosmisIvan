@@ -19,3 +19,5 @@ AttributeError: module 'collections' has no attribute 'Mapping'
 
 Spiegazione al link: https://stackoverflow.com/questions/70749690/attributeerror-module-collections-has-no-attribute-mapping
 
+### Avviare sistema
+
