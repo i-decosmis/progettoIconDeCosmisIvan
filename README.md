@@ -4,7 +4,6 @@ Installare tutte le librerie necessarie dal file requirements.txt
 Nel caso del seguente errore in seguito all'installazione delle librerie:
 
   File "percorsoAlFile\__init__.py", line 16, in <module>
-  
     class frozendict(collections.Mapping):
   
 AttributeError: module 'collections' has no attribute 'Mapping'
