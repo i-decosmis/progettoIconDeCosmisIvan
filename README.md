@@ -9,6 +9,8 @@ Il progetto contiene:
 2. I risultati vengono elaborati accedendo a delle informazioni salvate in un'ontologia
 3. Nel caso di una emergenza meteo viene calcolata la probabilità di prendersi un malanno attraverso una rete bayesiana
 
+La documentazione risiede nel file: ```Documentazione progetto.pdf```
+
 Studente:
 * De Cosmis Ivan, 716486, i.decosmis@studenti.uniba.it
 
