@@ -1,5 +1,9 @@
 # LEGGIMI
-Installare tutte le librerie necessarie dal file requirements.txt
+
+##Installare requisiti
+Installare tutte le librerie necessarie dal file requisiti.txt con il comando:
+
+```pip install -r requisiti.txt```
 
 Nel caso del seguente errore in seguito all'installazione delle librerie:
 
