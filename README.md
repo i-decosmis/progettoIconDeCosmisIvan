@@ -23,7 +23,7 @@ Se python in windows restituisce un errore provare con:
 
 Nel caso del seguente errore in seguito all'installazione delle librerie:
 ```
-  File "percorsoAlFile/\_\_init_\_\.py", line 16, in <module>
+  File "percorsoAlFile/__init__.py", line 16, in <module>
     class frozendict(collections.Mapping):
 AttributeError: module 'collections' has no attribute 'Mapping'
 ```
