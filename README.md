@@ -13,7 +13,7 @@ Studente:
 * De Cosmis Ivan, 716486, i.decosmis@studenti.uniba.it
 
 ## Installare requisiti
-Installare tutte le librerie necessarie dal file requisiti.txt con il comando:
+Installare tutte le librerie necessarie dal file requisiti.txt con il comando da console nella directory del file ```requisiti.txt```:
 
 ```pip install -r requisiti.txt```
 
@@ -37,4 +37,5 @@ Spiegazione al link: https://stackoverflow.com/questions/70749690/attributeerror
 ## Avviare sistema
   Per avviare il sistema utilizzare il comando:
   ```python main.py```
+  dalla directory del file ```main.py```
 
