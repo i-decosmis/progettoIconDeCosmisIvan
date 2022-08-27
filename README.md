@@ -36,6 +36,8 @@ Spiegazione al link: https://stackoverflow.com/questions/70749690/attributeerror
 
 ## Avviare sistema
   Per avviare il sistema utilizzare il comando:
+  
   ```python main.py```
+  
   dalla directory del file ```main.py```
 
